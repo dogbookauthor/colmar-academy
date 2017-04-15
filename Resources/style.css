@@ -1,0 +1,637 @@
+html{
+font-size: 18rem;
+font-family: sans-serif;
+}
+body{
+  line-height: 1;
+  margin: 0 auto;
+  display: block;
+  background-color: lightblue;
+
+}
+
+
+/* Header Container*/
+header{
+  background-color: white;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 64px;
+
+}
+/*Mobile header*/
+.logo-mobile{
+  display: none;
+}
+/* Logo Container*/
+#Logo-container{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 8px;
+  margin: 0 auto;
+}
+#Logo-container .logo{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-right: inherit;
+}
+
+#Logo-container .logo img{
+height: 6rem;
+width: auto 0;
+padding-left: 2rem;
+}
+
+#Logo-container .colmar{
+color: gray;
+padding-left: 1px;
+padding-top: 13px;
+font-weight: bold;
+font-size: 2.75rem;
+}
+#Logo-container .academy{
+color: lightgray;
+padding-top: 13px;
+font-size: 2.85rem;
+
+}
+#Logo-container .menu{
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0;
+  padding-right: 3rem;
+
+}
+#Logo-container .menu a{
+ color: gray;
+ text-decoration: none;
+ padding-right: 16px;
+ font-size: 2.25rem;
+ font-family: "Merriweather" , sans-serif;
+
+}
+/*Mobile logo-container*/
+.logo-mobile{
+
+}
+
+/* Banner Container*/
+#banner-container{
+  /*height: 50rem;
+  width:inherit;*/
+  background-color: lightgray;
+  display: flex;
+}
+#banner-container .image-container{
+  width: 100%;
+  /*height: auto 0;*/
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+}
+#banner-container img{
+  height: 100%;
+  width: auto 0;
+}
+#banner-container .text-container{
+ /*padding-left: 40px;*/
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 40%;
+ margin-left: 1rem;
+}
+
+#banner-container .text{
+  /*padding-top: 15rem;*/
+  width:85%;
+}
+
+#banner-container h1{
+  font-weight: bold;
+  font-size: 5rem;
+}
+#banner-container h3{
+  font-size: 3.5rem;
+}
+#banner-container nav{
+  height: 5rem;
+  width: 70%;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+}
+#banner-container .button{
+  width: 10rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#banner-container a{
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+/*Mobile banner-container*/
+
+
+/* Headline Container*/
+#headline-container{
+  width:100%;
+  background-color: #FFF;
+  display: flex;
+  padding-bottom: 32px;
+}
+
+#headline-container .image-container{
+  width:100%;
+  /*margin: 1rem 1.5rem;*/
+  /*padding-top: 32px;*/
+  /*width: 50rem;
+  height: auto 0;*/
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+}
+#headline-container img{
+  width: 60%
+  margin-top: 1rem;
+}
+
+#headline-container .text{
+
+}
+#headline-container h2{
+font-size: 4rem;
+
+}
+#headline-container p{
+width: 90%;
+font-size: 2rem;
+}
+#headline-container .quote{
+
+}
+#headline-container .article-container{
+  padding-top: 1.2rem;
+  padding-bottom: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid lightgray;
+}
+#headline-container .orientation-container{
+display: flex;
+width: 100%;
+padding: 2rem;
+border-bottom: 1px solid lightgray;
+}
+#headline-container .image-container1{
+width: 35%
+padding: 1rem;
+}
+.image-container1 img{
+  /*width: 85%;*/
+
+
+}
+#headline-container .article-container .text1{
+padding-left: 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#headline-container .orientation-container h3{
+
+}
+#headline-container .orientation-container p{
+
+}
+#headline-container nav{
+
+}
+#headline-container a{
+
+}
+
+#headline-container .campus-container{
+display: flex;
+width: 100%;
+padding: 2rem;
+border-bottom: 1px solid lightgray;
+}
+#headline-container .image-container2{
+  width: 35%
+  padding: 1rem;
+}
+.image-container2 img{
+/*width: 85%;*/
+
+}
+#headline-container .article-container .text2{
+padding-left: 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#headline-container .campus-container h3{
+
+}
+#headline-container .campus-container p{
+
+}
+#headline-container .guest-container{
+  display: flex;
+  width: 100%;
+  background-color: lightgray;
+  padding: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+#headline-container .image-container3{
+  width: 35%
+  padding: 1rem;
+}
+.image-container3 img{
+/*width: 85%;*/
+
+}
+#headline-container .article-container .text3{
+padding-left: 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#headline-container .guest-container h3{
+
+}
+#headline-container .guest-container p{
+color: white;
+}
+/*Mobile headline-container*/
+
+
+
+/* Course Container*/
+#course-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: lightgray;
+padding-top: 32px;
+}
+#course-container h2{
+  margin: 2rem 0;
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 16px;
+}
+#course-container .grid-parent{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  justify-content: center;
+
+}
+#course-container .grid{
+margin: 1rem;
+width: 25%;
+background-color: white;
+
+}
+#course-container img{
+width: 100%;
+
+}
+#course-container .description {
+height: 100%;
+padding: 1rem;
+line-height: 1.1;
+
+
+
+}
+#course-container .description h4{
+color: gray;
+
+}
+#course-container .description h5, p{
+color: lightgray;
+
+}
+/*Mobile course-container*/
+
+.mobile-grid{
+display: none;
+}
+.mobile{
+
+}
+/* Thesis Video Container*/
+#thesis-container{
+  width: 100%;
+  padding-bottom: 32px;
+}
+#thesis-container h2{
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  color: gray;
+}
+#thesis-container .exhibit{
+display: flex;
+border-bottom: 1px solid lightgray;
+/*padding-left: 24px;
+padding-top: 32px;
+padding-right: 40px;
+padding-bottom: 32px;*/
+}
+#thesis-container .video-box{
+width: 100%;
+padding-left: 24px;
+padding-top: 32px;
+padding-right: 40px;
+padding-bottom: 32px;
+}
+#thesis-container .video-box video{
+width: 100%;
+}
+#thesis-container .text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+#thesis-container .video-box .text h2{
+ font-size: 4rem;
+ display: flex;
+ justify-content: flex-start;
+ color: #585656;
+}
+#thesis-container .video-box .text p{
+  width: 90%;
+  font-size: 2rem;
+}
+
+#thesis-container .articles{
+/*width: 60%;*/
+padding-top: 1.5rem;
+padding-bottom: 3rem;
+padding-left: 4rem;
+width: 45%;
+display: flex;
+flex-direction: column;
+/*border-left: 1px solid lightgray;*/
+}
+#thesis-container .box{
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  background-color: lightgray;
+  border: 1.5rem solid white;
+}
+
+}
+#thesis-container .image1 img{
+  width: 90%;
+
+}
+#thesis-container .description{
+ padding-left: 2rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+#thesis-container .description p{
+  color: white;
+}
+/*Mobile Thesis-container*/
+
+/* Footer Container*/
+#footer {
+padding-top: 1rem;
+display: flex;
+justify-content: space-between;
+padding-right: 1rem;
+}
+#footer .footer-text{
+  padding-left: 3rem;
+}
+#footer .footer-text p{
+
+}
+#footer .privacy {
+display: flex;
+flex-direction: row;
+}
+#footer .privacy a{
+padding-right: 1rem;
+color: gray;
+
+}
+/*Mobile Footer*/
+
+/*Mobile Website*/
+@media only screen and (max-width: 480px){
+  /*Header*/
+
+  #Logo-container .menu{
+    display: none
+  }
+
+  .logo img {
+    display: none;
+  }
+  .logo span {
+    display: none;
+  }
+
+  .logo-mobile{
+    display: flex;
+    width: 100%;
+  }
+  .logo-mobile nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-mobile nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-mobile ul li{
+    padding-left: 0;
+  }
+}
+  /*.logo-mobile nav ul a{
+    text-decoration: none;
+    color: black;*/
+
+  /* Banner*/
+@media only screen and (max-width: 480px){
+  #banner-container{
+    flex-wrap: wrap;
+  }
+  #banner-container .image-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #banner-container .image-container img{
+    width: 100%;
+    height: auto;
+  }
+  #banner-container .text-container {
+    margin: 1rem;
+    width: 100%;
+  }
+  .text-container .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #banner-container nav{
+    width: 85%;
+  }
+  #banner-container .btn{
+    width: 100%;
+    padding-left: 2rem;
+  }
+  #banner-container .text-container h1{
+    font-size: 4rem;
+    padding-left: 1rem;
+  }
+  #banner-container .text-container h3{
+    font-size: 3rem;
+    padding-left: 1rem;
+  }
+  #banner-container .btn{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+  #banner-container .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+  /*headline-container*/
+  @media only screen and (max-width: 480px){
+  #headline-container .image-container{
+    display: none;
+  }
+  #headline-container {
+    /*display: flex;
+    width: 100%;*/
+    padding-bottom: 0;
+  }
+  #headline-container img{
+    /*width: 100%;*/
+  }
+  #headline-container .article-container{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 0;
+  }
+  #headline-container .orientation-container {
+    flex-direction: column;
+  }
+  #headline-container .orientation-container .text1{
+
+  }
+  #headline-container .orientation-container img{
+    width: 100%;
+  }
+  #headline-container .campus-container {
+    flex-direction: column;
+  }
+  #headline-container .campus-container img{
+    width: 100%;
+  }
+  #headline-container .campus-container .text2{
+
+  }
+  #headline-container .guest-container {
+    flex-direction: column;
+    background-color: white;
+  }
+  #headline-container .guest-container img{
+    width: 100%;
+  }
+  #headline-container .guest-container .text2 p{
+    color: lightgray;
+  }
+}
+
+ /*course-container*/
+@media only screen and (max-width: 480px){
+ #course-container{
+   background-color: white;
+   padding-top: 0;
+ }
+ #course-container h2{
+   color: gray;
+   font-size: 4rem;
+   padding-bottom: 0;
+   margin: 0;
+ }
+ #course-container .grid{
+   display: none;
+ }
+ #course-container .mobile-grid{
+   display: flex;
+   flex-direction: column;
+   padding-top: 0;
+   width: 90%;
+ }
+ #course-container .mobile{
+   background-color: lightgray;
+   margin: 1rem;
+   padding: 2rem;
+   padding-right: 1rem;
+   width: 95%;
+ }
+ #course-container .mobile h4{
+   font-size: 2.25rem;
+ }
+
+ #thesis-container .articles{
+   display: none;
+ }
+ #thesis-container .text{
+   display: none;
+ }
+ #thesis-container h2{
+   font-size: 4rem;
+   color: gray;
+ }
+ #thesis-container .video-box{
+   padding-top: 10px;
+ }
+ #thesis-container .exhibit{
+   width: 100%;
+   padding-left: 1rem;
+ }
+ #thesis-container video{
+   width: 100%;
+ }
+ #footer .privacy{
+   display: none;
+ }
+}
