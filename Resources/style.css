@@ -68,9 +68,11 @@ font-size: 3rem;
  font-size: 2rem;
  font-family: "Merriweather" , sans-serif;
 }
-a:link{
-color: #B2E1E7;
-text-decoration: underline;
+a {
+transition-property: all;
+transition-duration: 0.4s;
+transition-timing-function: ease-in;
+transition-delay: initial;
 }
 /* Banner Container*/
 #banner-container{
@@ -323,10 +325,16 @@ line-height: 1.1;
 }
 #course-container .description h4{
 color: gray;
+font-size: 25px;
 }
 
 #course-container .description h5, p{
 color: lightgray;
+font-size: 15px;
+}
+#course-container .description p{
+color: lightgray;
+font-size: 12px;
 }
 
 /*Mobile course-container*/
@@ -404,7 +412,7 @@ flex-direction: column;
 #thesis-container .image1 {
   display: flex;
   padding: 16px;
-  width: 35%;
+  width: 40%;
 
 }
 #thesis-container img{
