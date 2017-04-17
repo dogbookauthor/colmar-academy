@@ -42,16 +42,16 @@ padding-left: 2rem;
 }
 
 #Logo-container .colmar{
-color: gray;
+color: #B2E1E7;
 padding-left: 1px;
-padding-top: 13px;
+padding-top: 10px;
 font-weight: bold;
-font-size: 2.75rem;
+font-size: 3rem;
 }
 #Logo-container .academy{
-color: lightgray;
-padding-top: 13px;
-font-size: 2.85rem;
+color: darkgray;
+padding-top: 10px;
+font-size: 3rem;
 
 }
 #Logo-container .menu{
@@ -65,14 +65,17 @@ font-size: 2.85rem;
  color: gray;
  text-decoration: none;
  padding-right: 16px;
- font-size: 2.25rem;
+ font-size: 2rem;
  font-family: "Merriweather" , sans-serif;
 }
-
+a:link{
+color: #B2E1E7;
+text-decoration: underline;
+}
 /* Banner Container*/
 #banner-container{
   width: 100%;
-  background-color: lightgray;
+  background-color: #B2E1E7;
   display: flex;
 }
 #banner-container .image-container{
@@ -91,11 +94,12 @@ font-size: 2.85rem;
  display: flex;
  flex-direction: column;
  justify-content:center;
+ width: 100%;
 }
 
 #banner-container .text{
   align-items: center;
-  width: 90%;
+
   margin-left: 1rem;
 
 }
@@ -133,6 +137,7 @@ font-size: 2.85rem;
   background-color: #FFF;
   display: flex;
   padding-bottom: 32px;
+  border-bottom: 1px solid lightgray;
 }
 
 #headline-container .image-container{
@@ -167,6 +172,7 @@ font-size: 2rem;
 }
 #headline-container .article-container{
   width: 40%;
+
 }
 #headline-container .orientation-container{
   width: 100%;
@@ -174,6 +180,7 @@ font-size: 2rem;
   padding: 2rem;
   border-bottom: 1px solid lightgray;
   border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 #headline-container .image-container1{
   width: 35%;
@@ -198,7 +205,8 @@ font-size: 2rem;
 
 }
 #headline-container .orientation-container p{
- width: 435px;
+ /*width: 435px;*/
+ font-size: 14px;
 }
 #headline-container nav{
 
@@ -213,6 +221,7 @@ font-size: 2rem;
   padding: 2rem;
   border-bottom: 1px solid lightgray;
   border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 #headline-container .image-container2{
   width: 35%;
@@ -234,14 +243,15 @@ font-size: 2rem;
 
 }
 #headline-container .campus-container p{
- width: 423px;
+
+ font-size: 14px;
 }
 #headline-container .guest-container{
   width: 100%;
   display: flex;
-  background-color: lightgray;
+  background-color: #B2E1E7;
   padding: 2rem;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #B2E1E7;
 }
 #headline-container .image-container3{
   width: 35%;
@@ -264,7 +274,7 @@ width: 65%;
 }
 #headline-container .guest-container p{
 color: white;
-width: 435px;
+font-size: 14px;
 }
 /*Mobile headline-container*/
 
@@ -276,7 +286,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: lightgray;
+background-color: #B2E1E7;
 padding-top: 32px;
 }
 
@@ -373,10 +383,10 @@ justify-content: flex-start;
 }
 
 #thesis-container .articles{
-/*width: 60%;*/
+width: 100%;
 padding-top: 1.5rem;
 padding-bottom: 3rem;
-padding-left: 4rem;
+/*padding-left: 4rem;*/
 width: 45%;
 display: flex;
 flex-direction: column;
@@ -384,16 +394,30 @@ flex-direction: column;
 }
 #thesis-container .box{
   display: flex;
-  width: 100%;
-  padding: 2rem;
+  width: 423px;
+  height: 168px;
+
   background-color: lightgray;
   border: 1.5rem solid white;
 }
 
-#thesis-container .image1 img{
-  width: 90%;
+#thesis-container .image1 {
+  display: flex;
+  padding: 16px;
+  width: 35%;
 
 }
+#thesis-container img{
+  width: 100%;
+}
+
+#thesis-container .image2 {
+  display: flex;
+  padding: 16px;
+  width: 35%;
+
+}
+
 #thesis-container .description{
  padding-left: 2rem;
  display: flex;
@@ -432,13 +456,11 @@ color: gray;
 /*Mobile Footer*/
 
 /*Mobile Website*/
+/*Header*/
 @media only screen and (max-width: 480px){
-  /*Header*/
-
   #Logo-container .menu{
     display: none;
   }
-
   .logo img {
     display: none;
   }
@@ -529,7 +551,7 @@ color: gray;
   }
   #headline-container {
     /*display: flex;
-    width: 100%;*/
+    width: 100%;
     padding-bottom: 0;
   }
   #headline-container img{
@@ -549,13 +571,13 @@ color: gray;
   #headline-container .orientation-container .text1{
 
   }
-  #headline-container .orientation-container img{
+  #headline-container .image-container1 {
     width: 100%;
   }
   #headline-container .campus-container {
     flex-direction: column;
   }
-  #headline-container .campus-container img{
+  #headline-container .image-container2 {
     width: 100%;
   }
   #headline-container .campus-container .text2{
@@ -565,7 +587,7 @@ color: gray;
     flex-direction: column;
     background-color: white;
   }
-  #headline-container .guest-container img{
+  #headline-container .image-container3 {
     width: 100%;
   }
   #headline-container .guest-container .text2 p{
